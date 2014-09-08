@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <style type="text/css">
+        label,input {
+            font: bold 20px Tahoma;
+            color: #0066FF;
+        }
+    </style>
+    <title>Clinico - Cardiac Center</title>
+
+</head>
+<body style="width: 500px;margin-left: auto;margin-right: auto;">
+<header id="header">
+    <section id="logo" class="logo">
+        <div>
+            <a href="index.jsp"><img src="img/blue/logo.png" width="190" height="50" alt="Clinico"></a>
+        </div>
+
+    </section>
+
+</header>
+
+<section class="widget widget-appointment">
+    <form id="signupForm" method="post" action="admin_login">
+
+        <fieldset>
+            <div><div style="text-align: center;">
+                <label style="width: 200px;color: #000000;" for="username">Admin Login</label></br>
+            </div>
+                <div>
+                    <a href="index.jsp" style="float:right;">View Site</a></br>
+                </div>
+            <p>
+                <label style="width: 200px;float: left;" for="username">Username</label>
+                <input id="username" name="username" type="text" />
+            </p>
+            <p>
+            <label style="width: 200px;float: left;" for="password">Password</label>
+            <input id="password" name="password" type="password" />
+        </p>
+
+            <div class="clear"></div>
+
+            <footer>
+                <div class="submit_link"><div style="text-align: center;">
+                    <input class="submit" type="submit" value="Login">
+                </div>
+            </footer>
+        </fieldset>
+
+    </form>
+
+</section>
+
+</body>
+</html>

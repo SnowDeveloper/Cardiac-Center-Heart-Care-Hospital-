@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3029604389">
+    <data-source source="LOCAL" name="Oracle - XE@localhost" uuid="41d49210-51df-4e33-98aa-83ef444c8843">
+      <driver-ref>oracle</driver-ref>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//localhost:1521/XE</jdbc-url>
+      <user-name>snowwhite</user-name>
+      <user-password>dfdadfd8dfcbdfc1dfcbdfd9dfc2dfc3dfda</user-password>
+      <schema-pattern>*.DNGAD</schema-pattern>
+      <default-schemas>*.DNGAD</default-schemas>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
